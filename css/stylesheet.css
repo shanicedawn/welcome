@@ -1,0 +1,267 @@
+@import url("http://fonts.cdnfonts.com/css/segoe-ui-4");
+@font-face {
+  font-family: StencilStd;
+  src: url(../font/StencilStd.otf);
+}
+@font-face {
+  font-family: ImpactFont;
+  src: url(../font/Impact.ttf);
+}
+@font-face {
+  font-family: Fixedsys;
+  src: url(../font/Fixedsys.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 1349px;
+  height: 100vh;
+  background-color: #cfe8f1;
+  margin: 0 auto;
+  position: relative;
+}
+.section-1 {
+  background-color: #450a52;
+  height: 400px;
+}
+.section-2 {
+  background-image: url(../img/sectiontwo.png);
+  height: 535px;
+}
+.section-3 {
+  position: relative;
+  background-color: #ba6832;
+  height: 750px;
+}
+.parallax {
+  background-image: url(../img/moon.png);
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1.header-text-1 {
+  position: absolute;
+  top: 80px;
+  left: 180px;
+  font-family: "ImpactFont";
+  text-transform: uppercase;
+  font-size: 6em;
+  color: #ba6832;
+  letter-spacing: 2px;
+}
+h1.header-text-2 {
+  position: absolute;
+  top: 160px;
+  left: 180px;
+  font-family: "ImpactFont";
+  text-transform: uppercase;
+  font-size: 8em;
+  color: #ba6832;
+  letter-spacing: 2px;
+}
+h3 {
+  position: absolute;
+  top: 300px;
+  right: 120px;
+  font-family: "Segoe UI", sans-serif;
+  text-align: right;
+  color: white;
+}
+.pc {
+  position: absolute;
+  top: 350px;
+  left: 180px;
+}
+.telephone {
+  position: absolute;
+  top: 450px;
+  left: 280px;
+}
+.camera {
+  position: absolute;
+  top: 450px;
+  left: 380px;
+}
+.time {
+  position: absolute;
+  top: 360px;
+  left: 380px;
+}
+.car {
+  position: absolute;
+  top: 600px;
+  left: 680px;
+}
+.wheel {
+  position: absolute;
+  top: 690px;
+  left: 736px;
+}
+.wheel-2 {
+  position: absolute;
+  top: 690px;
+  right: 186px;
+}
+h1.created {
+  position: absolute;
+  top: 795px;
+  left: 175px;
+  font-size: 3.3em;
+  color: #ef4523;
+  letter-spacing: 1px;
+  font-family: "StencilStd";
+  transform: perspective(100px) rotateX(10deg);
+}
+.sign {
+  position: absolute;
+  right: 90px;
+  top: 50px;
+  width: 350px;
+}
+p.insight {
+  position: absolute;
+  right: 150px;
+  top: 120px;
+  font-size: 1.8em;
+  width: 210px;
+  color: #30292e;
+  text-align: center;
+  font-family: Fixedsys;
+}
+p.about-insight {
+  position: absolute;
+  right: 480px;
+  top: 120px;
+  width: 700px;
+  font-size: 1.5em;
+  text-align: right;
+  font-family: Fixedsys;
+  color: #fcd49d;
+}
+.pointy {
+  position: absolute;
+  left: 120px;
+  top: 340px;
+}
+p.rskills {
+  font-family: "StencilStd";
+  position: absolute;
+  top: 378px;
+  left: 388px;
+  font-size: 2em;
+  color: #f2bd0c;
+}
+p.about-rskills {
+  position: absolute;
+  right: 360px;
+  top: 420px;
+  width: 600px;
+  font-size: 1.5em;
+  text-align: left;
+  font-family: Fixedsys;
+  color: #fcd49d;
+}
+p.soft-skills {
+  position: absolute;
+  top: 535px;
+  left: 390px;
+  font-size: 1.4em;
+  color: #fcd49d;
+  font-family: Fixedsys;
+}
+ul.sskills {
+  padding-top: 560px;
+  padding-left: 413px;
+}
+ul.sskills li {
+  font-family: Fixedsys;
+  font-size: 1.4em;
+  color: #fcd49d;
+  list-style-image: url(../img/coin.png);
+  cursor: pointer;
+}
+p.technical-skills {
+  position: absolute;
+  top: 535px;
+  left: 690px;
+  font-size: 1.4em;
+  color: #fcd49d;
+  font-family: Fixedsys;
+}
+p.graphicdesigner {
+  position: absolute;
+  top: 555px;
+  left: 714px;
+  font-size: 1.4em;
+  color: #fcd49d;
+  font-family: Fixedsys;
+}
+ul.tskills {
+  position: absolute;
+  left: 740px;
+  top: 580px;
+}
+ul.tskills li {
+  font-family: Fixedsys;
+  font-size: 1.4em;
+  color: #fcd49d;
+  list-style-image: url(../img/coin.png);
+  cursor: pointer;
+}
+ul.sskills li:before,
+ul.tskills li:before {
+  content: url(../img/coin.png);
+  margin-left: -20px;
+  display: inline-block;
+}
+ul.sskills li:hover:before,
+ul.tskills li:hover:before {
+  transform: rotate(360000deg);
+  transition: 300s; /* tune this */
+}
+.section-4 {
+  position: relative;
+  background-image: url(../img/sectiontwo.png);
+  background-repeat: no-repeat;
+  height: 535px;
+}
+.section-4 h1 {
+  font-family: ImpactFont;
+  font-size: 8em;
+  position: absolute;
+  top: 50px;
+  left: 180px;
+  text-transform: uppercase;
+  text-shadow: -5px -5px #fff;
+  color: #bd487b;
+}
+ul.joppurtunities-1 {
+  position: absolute;
+  left: 380px;
+  top: 210px;
+}
+ul.joppurtunities-2 {
+  position: absolute;
+  left: 720px;
+  top: 210px;
+}
+ul.joppurtunities-1 li,
+ul.joppurtunities-2 li {
+  list-style-image: url(../img/star.png);
+  font-family: ImpactFont;
+  font-size: 2em;
+  color: #fff;
+}
+
+ul.joppurtunities-1 li:hover,
+ul.joppurtunities-2 li:hover {
+  border-radius: 5px;
+  background-color: rgb(199, 8, 126);
+  padding: 5px;
+  cursor: pointer;
+}
